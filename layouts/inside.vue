@@ -1,0 +1,38 @@
+<script setup lang="ts">
+import type { NavigationMenuItem } from "@nuxt/ui";
+
+const navItems = ref<NavigationMenuItem[]>([
+  {
+    label: "Home",
+    icon: "lucide:home",
+    to: "/",
+  },
+  {
+    label: "Projects",
+    icon: "lucide:laptop-minimal-check",
+    to: "/projects",
+  },
+  {
+    label: "Blog",
+    icon: "lucide:newspaper",
+    to: "/blog",
+  },
+]);
+</script>
+
+<template>
+  <div class="flex min-h-screen flex-col">
+    <header class="p-4">
+      <UContainer>
+        <div class="flex items-center justify-between pb-4">
+          <UIcon name="lucide:clover" size="24" />
+          <UNavigationMenu :items="navItems" />
+        </div>
+      </UContainer>
+    </header>
+    <main class="flex-1">
+      <slot />
+    </main>
+    <FooterSection />
+  </div>
+</template>

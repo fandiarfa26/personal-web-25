@@ -1,0 +1,189 @@
+[
+  {
+    "name": "My Personal Website v3",
+    "year": "2025",
+    "assoc": "-",
+    "tech": ["NuxtJS", "VueJS", "Typescript", "Javascript"],
+    "links": {}
+  },
+  {
+    "name": "Wedding Invitation Website",
+    "year": "2022",
+    "assoc": "-",
+    "tech": ["TailwindCSS", "React", "Javascript"],
+    "links": {
+      "url": "https://mithafandi.vercel.app/to/ab12-Seseorang"
+    }
+  },
+  {
+    "name": "Note App (Web)",
+    "year": "2022",
+    "assoc": "Dicoding",
+    "tech": ["React", "Javascript", "HTML", "CSS"],
+    "links": {
+      "url": "https://fandiarfa26-notes-app.vercel.app/",
+      "github": "https://github.com/fandiarfa26/Dicoding/tree/master/submission_reactjs"
+    }
+  },
+  {
+    "name": "Bookshelf App (Web)",
+    "year": "2022",
+    "assoc": "Dicoding",
+    "tech": ["Javascript", "HTML", "CSS"],
+    "links": {
+      "url": "https://fandiarfa26.github.io/Dicoding/submission_fe_pemula/",
+      "github": "https://github.com/fandiarfa26/Dicoding/tree/master/submission_fe_pemula"
+    }
+  },
+  {
+    "name": "Interactive & Responsive Landing Page (Web)",
+    "year": "2022",
+    "assoc": "Dicoding",
+    "tech": ["Javascript", "HTML", "CSS"],
+    "links": {
+      "url": "https://fandiarfa26.github.io/Dicoding/submission_web_dasar/",
+      "github": "https://github.com/fandiarfa26/Dicoding/tree/master/submission_web_dasar"
+    }
+  },
+  {
+    "name": "My Personal Website v2",
+    "year": "2022",
+    "assoc": "-",
+    "tech": ["TailwindCSS", "React", "Javascript"],
+    "links": {
+      "url": "https://fandiarfa26.vercel.app/",
+      "github": "https://github.com/fandiarfa26/personal_web"
+    }
+  },
+  {
+    "name": "Admin Hi Nano",
+    "year": "2022",
+    "assoc": "PT. Inovasi Utama Nusantara",
+    "tech": ["React", "TailwindCSS", "Javascript"],
+    "links": {
+      "url": "https://admin-hinano.vercel.app/",
+      "figma": "https://www.figma.com/file/zuD2TyY7kafwnXeRC10FlJ/Hi-Nano?node-id=386%3A206"
+    }
+  },
+  {
+    "name": "Hand Emoji",
+    "year": "2022",
+    "assoc": "-",
+    "tech": ["Flutter", "Dart", "Machine Learning"],
+    "links": {
+      "video": "https://www.instagram.com/reel/CYgust7qdqW/"
+    }
+  },
+  {
+    "name": "Starter Flutter",
+    "year": "2021",
+    "assoc": "-",
+    "tech": ["Flutter", "Dart"],
+    "links": {
+      "github": "https://github.com/fandiarfa26/starter_flutter",
+      "figma": "https://www.figma.com/file/Q7KyCXktON6dB1lGUSH902/Starter-Flutter?node-id=9%3A179"
+    }
+  },
+  {
+    "name": "Hi Nano App",
+    "year": "2021",
+    "assoc": "PT. Inovasi Utama Nusantara",
+    "tech": ["Flutter", "Dart", "Firebase"],
+    "links": {
+      "figma": "https://www.figma.com/file/zuD2TyY7kafwnXeRC10FlJ/Hi-Nano?node-id=386%3A206"
+    }
+  },
+  {
+    "name": "My Personal Website v1",
+    "year": "2021",
+    "assoc": "-",
+    "tech": ["TailwindCSS", "VueJS", "Javascript"],
+    "links": {
+      "url": "https://fandiarfa26.github.io/",
+      "github": "https://github.com/fandiarfa26/fandiarfa26.github.io"
+    }
+  },
+  {
+    "name": "FoodieMu App",
+    "year": "2021",
+    "assoc": "PT. Inovasi Utama Nusantara",
+    "tech": ["Flutter", "Dart", "Firebase"],
+    "links": {
+      "url": "https://foodiemu.com/",
+      "playstore": "https://play.google.com/store/apps/details?id=com.foodiemu.customer"
+    }
+  },
+  {
+    "name": "Automatic Text Summarization System (Web)",
+    "year": "2020",
+    "assoc": "-",
+    "tech": ["NuxtJS", "VueJS", "Javascript"],
+    "links": {
+      "url": "https://fandiarfa26.github.io/arfa-summary/",
+      "github": "https://github.com/fandiarfa26/arfa-summary"
+    }
+  },
+  {
+    "name": "Automatic Text Summarization API (Backend)",
+    "year": "2020",
+    "assoc": "-",
+    "tech": ["Flask", "Python"],
+    "links": {
+      "github": "https://github.com/fandiarfa26/api-textrank"
+    }
+  },
+  {
+    "name": "Locahubie (Frontend)",
+    "year": "2020",
+    "assoc": "PT. Inovasi Utama Nusantara",
+    "tech": ["TailwindCSS", "VueJS", "Javascript"],
+    "links": {
+      "url": "https://locahubie.com/"
+    }
+  },
+  {
+    "name": "MuseAkademi (Frontend)",
+    "year": "2020",
+    "assoc": "PT. Inovasi Utama Nusantara",
+    "tech": ["Bootstrap", "CSS", "HTML"],
+    "links": {
+      "url": "https://museakademi.com/"
+    }
+  },
+  {
+    "name": "Simple Cover Book Maker (Web)",
+    "year": "2020",
+    "assoc": "-",
+    "tech": ["PHP", "Javascript", "HTML", "CSS"],
+    "links": {
+      "github": "https://github.com/fandiarfa26/cover_book_maker"
+    }
+  },
+  {
+    "name": "ICLI 2020 Website",
+    "year": "2020",
+    "assoc": "PUIPT DLI UM",
+    "tech": ["Codeigniter", "PHP", "HTML", "CSS"],
+    "links": {
+      "github": "https://github.com/fandiarfa26/icli2020"
+    }
+  },
+  {
+    "name": "Company Profile DLI Website",
+    "year": "2020",
+    "assoc": "PUIPT DLI UM",
+    "tech": ["Codeigniter", "PHP", "HTML", "CSS"],
+    "links": {
+      "url": "http://dli.um.ac.id/"
+    }
+  },
+  {
+    "name": "Idbookstore",
+    "year": "2020",
+    "assoc": "PUIPT DLI UM",
+    "tech": ["Codeigniter", "Bootstrap", "Javascript"],
+    "links": {
+      "url": "https://idbookstore.id/"
+    }
+  }
+]

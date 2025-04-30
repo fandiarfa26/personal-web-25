@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Github",
+    "url": "https://github.com/fandiarfa26",
+    "icon": "mdi:github"
+  },
+  {
+    "name": "Tiktok",
+    "url": "https://www.tiktok.com/@arfa_dev",
+    "icon": "ic:baseline-tiktok"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/fandiarfa/",
+    "icon": "mdi:instagram"
+  },
+  {
+    "name": "Facebook",
+    "url": "https://www.facebook.com/fandiarfa26",
+    "icon": "ic:baseline-facebook"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://x.com/_panpandi",
+    "icon": "ri:twitter-x-fill"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/arfabuma/",
+    "icon": "mdi:linkedin"
+  }
+]

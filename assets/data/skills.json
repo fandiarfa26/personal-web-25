@@ -1,0 +1,21 @@
+[
+  { "label": "NuxtJS", "icon": "nuxtjs.svg" },
+  { "label": "VueJS", "icon": "vuejs.svg" },
+  { "label": "React", "icon": "react.png" },
+  { "label": "TailwindCSS", "icon": "tailwindcss.svg" },
+  { "label": "Javascript", "icon": "javascript.svg" },
+  { "label": "HTML", "icon": "html.svg" },
+  { "label": "CSS", "icon": "css.svg" },
+  { "label": "Flutter", "icon": "flutter.svg" },
+  { "label": "Dart", "icon": "dart.svg" },
+  { "label": "Node.js", "icon": "nodejs.svg" },
+  { "label": "Firebase", "icon": "firebase.svg" },
+  { "label": "Python", "icon": "python.svg" },
+  { "label": "Bootstrap", "icon": "bootstrap.svg" },
+  { "label": "Wordpress", "icon": "wordpress.svg" },
+  { "label": "JQuery", "icon": "jquery.svg" },
+  { "label": "Laravel", "icon": "laravel.svg" },
+  { "label": "Codeigniter", "icon": "codeigniter.svg" },
+  { "label": "PHP", "icon": "php.svg" },
+  { "label": "MySQL", "icon": "mysql.svg" }
+]

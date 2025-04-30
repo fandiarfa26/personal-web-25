@@ -1,0 +1,57 @@
+[
+  {
+    "name": "PT. Ada Ide Langsung Jalan",
+    "role": "Frontend Staff Developer",
+    "type": "Full-time Work",
+    "time": "August 2023 - Present",
+    "notes": [
+      "Assist as a team in developing various projects in the office.",
+      "Learn and develop skills in web and mobile development technologies, such as Flutter and React.",
+      "Work and collaborate in a large team."
+    ]
+  },
+  {
+    "name": "Dicoding",
+    "role": "React Developer",
+    "type": "Course",
+    "time": "June 2022 - July 2022",
+    "notes": [
+      "Choosing the React Developer learning path, in order to understand and understand about ReactJS.",
+      "There are 4 classes that need to be completed.",
+      "Learn to create simple web apps: responsive landing pages, bookshelf apps, and notes apps."
+    ]
+  },
+  {
+    "name": "PT. Inovasi Utama Nusantara",
+    "role": "Frontend Developer",
+    "type": "Full-time Work",
+    "time": "July 2020 - August 2023",
+    "notes": [
+      "Worked on a lot of projects: MuseAkademi, Locahubie, Hi Nano, FoodieMu, Idbookstore.",
+      "Work with various technologies to build websites and their applications: Bootstrap, TailwindCSS, VueJS, Flutter, React.",
+      "Always communicate with UI/UX Designer and Backend Developer."
+    ]
+  },
+  {
+    "name": "PUIPT DLI UM",
+    "role": "IT Support",
+    "type": "Intern",
+    "time": "July 2019 - July 2020",
+    "notes": [
+      "Help in making web company profiles and web conference journals using Bootstrap, HTML, CSS, Javascript, and Codeigniter.",
+      "Follow and assisting the workshops and seminars held.",
+      "Follow a technology exhibition in Bali."
+    ]
+  },
+  {
+    "name": "CV. Girisa Teknologi",
+    "role": "Web Developer",
+    "type": "Intern",
+    "time": "January 2015 - June 2015",
+    "notes": [
+      "Help in creating a hotel data recap website feature using Bootstrap and JQuery.",
+      "Working with one of the classmates and students from another school.",
+      "Accepted an internship despite demonstrating the error CRUD website :D"
+    ]
+  }
+]
