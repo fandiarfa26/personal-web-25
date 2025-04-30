@@ -22,7 +22,7 @@ const softskills = [
   <section id="skills" class="pt-10">
     <h2 class="mb-2">What can I do?</h2>
     <p class="mb-5 text-lg">Some of the technologies that have been tried</p>
-    <div class="grid grid-cols-5 gap-3">
+    <div class="flex flex-wrap lg:grid lg:grid-cols-5 gap-3">
       <UButton
         v-for="item in skills"
         :key="item.label"

@@ -1,3 +1,10 @@
+<script setup>
+definePageMeta({
+  title: "M. Fandi Arfabuma - Frontend Developer",
+  layout: "false",
+});
+</script>
+
 <template>
   <div>
     <!-- Navbar -->
@@ -9,23 +16,23 @@
     <!-- Group -->
     <UContainer>
       <TheSeparator />
-      <div class="flex gap-10">
-        <div class="w-1/3 pt-10">
+      <div class="flex flex-col lg:flex-row gap-10">
+        <div class="w-full lg:w-1/3 lg:pt-10 order-last lg:order-first">
           <!-- Profile -->
           <ProfileSection />
         </div>
-        <div class="w-2/3">
+        <div class="w-full lg:w-2/3">
           <!-- Skills -->
           <SkillSection />
           <!-- Experiences -->
           <ExperienceSection />
           <!-- Activities -->
           <ActivitiesSection />
+          <!-- Blog -->
+          <BlogSection />
         </div>
       </div>
       <TheSeparator />
-      <!-- Blog -->
-      <BlogSection />
       <!-- Contact -->
       <ContactSection />
       <!-- Back to Top -->
@@ -35,9 +42,3 @@
     <FooterSection />
   </div>
 </template>
-
-<script setup lang="ts">
-definePageMeta({
-  layout: false,
-});
-</script>

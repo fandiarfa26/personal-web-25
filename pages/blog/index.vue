@@ -18,7 +18,7 @@ const { data: posts } = await useAsyncData("blog", () =>
         articles as documentation of my learning.
       </p>
 
-      <div class="grid grid-cols-3 gap-3">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
         <ULink v-for="post in posts" :key="post.id" :to="post.path">
           <UCard class="hover:bg-primary-500/5">
             <h2 class="mb-2 !text-2xl">{{ post.title }}</h2>

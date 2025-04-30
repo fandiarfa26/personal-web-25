@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { data: posts } = await useAsyncData("blog", () =>
-  queryCollection("blog").all()
+  queryCollection("blog").order("date", "DESC").limit(5).all()
 );
 </script>
 
@@ -8,14 +8,16 @@ const { data: posts } = await useAsyncData("blog", () =>
   <section class="pt-10">
     <h2 class="mb-2">What have I written lately?</h2>
     <p class="mb-5 text-lg">Some articles that can increase your knowledge</p>
-    <div class="p-3">
+    <div class="p-2">
       <UCarousel
         v-slot="{ item }"
         loop
-        arrows
+        dots
         :autoplay="{ delay: 5000 }"
         :items="posts"
-        :ui="{ item: 'basis-1/3' }"
+        :ui="{
+          item: 'basis-full lg:basis-1/2',
+        }"
       >
         <NuxtLink :to="item.path">
           <UCard variant="subtle">
@@ -25,6 +27,5 @@ const { data: posts } = await useAsyncData("blog", () =>
         </NuxtLink>
       </UCarousel>
     </div>
-    <TheSeparator />
   </section>
 </template>

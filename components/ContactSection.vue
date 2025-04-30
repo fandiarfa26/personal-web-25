@@ -1,7 +1,7 @@
 <template>
   <section
     id="contact"
-    class="flex items-center gap-5 h-96 justify-between pt-10"
+    class="flex flex-col lg:flex-row items-center gap-5 h-96 justify-between pt-10"
   >
     <div class="flex flex-col gap-5">
       <h2 class="mb-2">Want to know more?</h2>
@@ -14,7 +14,7 @@
         <UButton size="xl" trailing-icon="lucide:send">Contact Me</UButton>
       </div>
     </div>
-    <div class="w-1/3">
+    <div class="hidden lg:block w-1/3">
       <img
         src="~/assets/images/bye.gif"
         alt="Bye gif"
