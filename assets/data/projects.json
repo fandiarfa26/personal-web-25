@@ -4,7 +4,10 @@
     "year": "2025",
     "assoc": "-",
     "tech": ["NuxtJS", "VueJS", "Typescript", "Javascript"],
-    "links": {}
+    "links": {
+      "url": "https://fandiarfa26.vercel.app/",
+      "github": "https://github.com/fandiarfa26/personal-web-25"
+    }
   },
   {
     "name": "Wedding Invitation Website",
@@ -51,7 +54,7 @@
     "assoc": "-",
     "tech": ["TailwindCSS", "React", "Javascript"],
     "links": {
-      "url": "https://fandiarfa26.vercel.app/",
+      "url": "https://personal-web-22.vercel.app/",
       "github": "https://github.com/fandiarfa26/personal_web"
     }
   },
