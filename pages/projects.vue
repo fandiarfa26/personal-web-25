@@ -4,6 +4,7 @@ import projects from "~/assets/data/projects.json";
 
 definePageMeta({
   layout: "inside",
+  title: "Projects",
 });
 
 type ProjectLink = {

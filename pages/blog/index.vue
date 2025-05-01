@@ -1,6 +1,7 @@
 <script setup lang="ts">
 definePageMeta({
   layout: "inside",
+  title: "Blog",
 });
 
 const { data: posts } = await useAsyncData("blog", () =>
@@ -18,11 +19,13 @@ const { data: posts } = await useAsyncData("blog", () =>
         articles as documentation of my learning.
       </p>
 
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 items-stretch">
         <ULink v-for="post in posts" :key="post.id" :to="post.path">
-          <UCard class="hover:bg-primary-500/5">
-            <h2 class="mb-2 !text-2xl">{{ post.title }}</h2>
-            <p>{{ formatDate(post.date) }}</p>
+          <UCard
+            class="hover:bg-primary-500/5 flex flex-col h-full space-between"
+          >
+            <h2 class="mb-2 !text-2xl flex-shrink-0">{{ post.title }}</h2>
+            <p class="mt-auto flex-shrink-0">{{ formatDate(post.date) }}</p>
           </UCard>
         </ULink>
       </div>

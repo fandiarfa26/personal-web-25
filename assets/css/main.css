@@ -17,3 +17,40 @@ h1 {
 h2 {
   @apply text-4xl;
 }
+
+.content {
+  @apply space-y-3 pb-20;
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl font-bold;
+  }
+
+  ul {
+    @apply list-disc pl-5;
+  }
+
+  code {
+    @apply font-mono bg-neutral-950;
+  }
+
+  blockquote {
+    @apply border-l-4 pl-4 bg-neutral-950;
+  }
+
+  table {
+    @apply border-2 border-neutral-500;
+
+    tr {
+      @apply border-b-2 border-neutral-500;
+    }
+
+    th,
+    td {
+      @apply py-2 px-4;
+    }
+  }
+}

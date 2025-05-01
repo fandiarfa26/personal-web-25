@@ -1,6 +1,17 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from "@nuxt/ui";
 
+const route = useRoute();
+
+useHead({
+  meta: [
+    {
+      property: "og:title",
+      content: `M. Fandi Arfabuma - ${route.meta.title}`,
+    },
+  ],
+});
+
 const navItems = ref<NavigationMenuItem[]>([
   {
     label: "Home",

@@ -1,7 +1,7 @@
 <script setup>
 definePageMeta({
   title: "M. Fandi Arfabuma - Frontend Developer",
-  layout: "false",
+  layout: false,
 });
 </script>
 
