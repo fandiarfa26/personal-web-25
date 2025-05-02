@@ -12,6 +12,7 @@ useHead({
 </script>
 
 <template>
+  <CursorFollower />
   <UApp>
     <NuxtLayout>
       <NuxtPage />
