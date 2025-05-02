@@ -4,7 +4,7 @@
       <!-- FILTER BLUR -->
       <defs>
         <filter id="trail-blur" x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+          <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
         </filter>
       </defs>
 
@@ -22,7 +22,7 @@
     <!-- Lingkaran utama di kursor -->
     <div
       ref="cursorCircle"
-      class="fixed top-0 left-0 w-8 h-8 rounded-full border border-primary/50 backdrop-blur-sm shadow-md pointer-events-none z-50"
+      class="fixed top-0 left-0 w-8 h-8 rounded-full border border-primary/50 shadow-md pointer-events-none z-50"
     />
   </div>
 </template>

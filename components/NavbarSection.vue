@@ -81,9 +81,9 @@ onMounted(() => {
 
 <template>
   <section
-    class="fixed bottom-20 left-1/2 transform -translate-x-1/2 z-50 w-full lg:w-1/2 px-4"
+    class="fixed bottom-0 lg:bottom-20 left-1/2 transform -translate-x-1/2 z-50 w-full lg:w-1/2 lg:px-4"
   >
-    <div class="bg-neutral-800/30 backdrop-blur-sm p-4 rounded-xl">
+    <div class="bg-neutral-800/30 backdrop-blur-sm p-4 lg:rounded-xl">
       <div class="grid grid-cols-5 gap-4 w-full">
         <ULink
           v-for="(item, index) in items"

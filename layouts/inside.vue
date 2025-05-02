@@ -33,15 +33,15 @@ const navItems = ref<NavigationMenuItem[]>([
 
 <template>
   <div class="flex min-h-screen flex-col">
-    <header class="p-4">
+    <header class="py-1 px-4 fixed backdrop-blur-2xl top-0 w-full z-10">
       <UContainer>
-        <div class="flex items-center justify-between pb-4">
+        <div class="flex items-center justify-between">
           <UIcon name="lucide:clover" size="24" />
           <UNavigationMenu :items="navItems" />
         </div>
       </UContainer>
     </header>
-    <main class="flex-1">
+    <main class="flex-1 pt-20">
       <slot />
     </main>
     <FooterSection />
