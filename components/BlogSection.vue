@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: posts } = await useAsyncData("blog", () =>
+const { data: posts } = await useAsyncData("blog-section", () =>
   queryCollection("blog").order("date", "DESC").limit(5).all()
 );
 </script>

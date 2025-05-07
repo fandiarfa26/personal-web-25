@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import projects from "~/assets/data/projects.json";
 
-const { data: posts } = await useAsyncData("blog", () =>
+const { data: posts } = await useAsyncData("activity-blogs", () =>
   queryCollection("blog").all()
 );
 </script>
